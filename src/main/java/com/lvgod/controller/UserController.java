@@ -11,6 +11,7 @@ import com.lvgod.model.User;
 @Controller
 public class UserController {
 
+	System.out.println("Hello people this Mr Andrabski speak ..");
 	@RequestMapping(value = "/displayForm.htm", method = RequestMethod.GET)
 	public String displayForm(Model model) {
 		System.out.println("hi");
