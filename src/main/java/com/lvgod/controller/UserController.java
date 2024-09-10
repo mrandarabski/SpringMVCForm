@@ -11,9 +11,9 @@ import com.lvgod.model.User;
 @Controller
 public class UserController {
 
-	System.out.println("Hello people this Mr Andrabski speak ..");
 	@RequestMapping(value = "/displayForm.htm", method = RequestMethod.GET)
 	public String displayForm(Model model) {
+		System.out.println("Hello people this Mr Andrabski speak ..");
 		System.out.println("hi");
 		int i = 10;
 		model.addAttribute("user", new User());
